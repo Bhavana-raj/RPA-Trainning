@@ -49,7 +49,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>847.333333333333,4696</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>788,5228</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="41">
@@ -135,7 +135,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Initialize Workflow" sap:VirtualizedContainerService.HintSize="748,4631.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence DisplayName="Initialize Workflow" sap:VirtualizedContainerService.HintSize="798,5163.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="JsonText" />
       <Variable x:TypeArguments="ss:SecureString" Name="GmailPassword" />
@@ -147,7 +147,7 @@
         <x:Boolean x:Key="IsPinned">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="706,282" sap2010:WorkflowViewState.IdRef="Sequence_11">
+    <Sequence DisplayName="InitAllSettings" sap:VirtualizedContainerService.HintSize="756,282" sap2010:WorkflowViewState.IdRef="Sequence_11">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -162,7 +162,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </euc:Load_Config_File>
     </Sequence>
-    <Sequence DisplayName="Extract and Store Params" sap:VirtualizedContainerService.HintSize="706,227.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_12">
+    <Sequence DisplayName="Extract and Store Params" sap:VirtualizedContainerService.HintSize="756,227.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_12">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -177,7 +177,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </eus:Set_Generic_Value>
     </Sequence>
-    <Sequence DisplayName="Initialize Email Channels" sap:VirtualizedContainerService.HintSize="706,1413.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_13">
+    <Sequence DisplayName="Initialize Email Channels" sap:VirtualizedContainerService.HintSize="756,1413.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_13">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -299,7 +299,7 @@
         </eung:Initialize_Gmail>
       </Sequence>
     </Sequence>
-    <Sequence DisplayName="Validate MyUnity Credential Asset" sap:VirtualizedContainerService.HintSize="706,390" sap2010:WorkflowViewState.IdRef="Sequence_21">
+    <Sequence DisplayName="Validate MyUnity Credential Asset" sap:VirtualizedContainerService.HintSize="756,390" sap2010:WorkflowViewState.IdRef="Sequence_21">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -343,7 +343,7 @@
         </TryCatch.Catches>
       </TryCatch>
     </Sequence>
-    <Sequence DisplayName="Initialize E5 Hooks" sap:VirtualizedContainerService.HintSize="706,2066.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_14">
+    <Sequence DisplayName="Initialize E5 Hooks" sap:VirtualizedContainerService.HintSize="756,2598.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_14">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="HookUserName" />
         <Variable x:TypeArguments="ss:SecureString" Name="HookPassword" />
@@ -359,11 +359,11 @@
           <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438.666666666667,52.6666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="714,318.666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <TryCatch.Try>
@@ -400,11 +400,11 @@
           </Catch>
         </TryCatch.Catches>
       </TryCatch>
-      <TryCatch DisplayName="Try Catch Read Text" sap:VirtualizedContainerService.HintSize="664,52.6666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_6">
+      <TryCatch DisplayName="Try Catch Read Text" sap:VirtualizedContainerService.HintSize="714,373.333333333333" sap2010:WorkflowViewState.IdRef="TryCatch_6">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <TryCatch.Try>
@@ -441,7 +441,7 @@
           </Catch>
         </TryCatch.Catches>
       </TryCatch>
-      <TryCatch DisplayName="Try Catch Deserialize Json" sap:VirtualizedContainerService.HintSize="664,300" sap2010:WorkflowViewState.IdRef="TryCatch_7">
+      <TryCatch DisplayName="Try Catch Deserialize Json" sap:VirtualizedContainerService.HintSize="714,300" sap2010:WorkflowViewState.IdRef="TryCatch_7">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -476,27 +476,27 @@
           </Catch>
         </TryCatch.Catches>
       </TryCatch>
-      <euheo:Begin_Task_Execution FlowConfig="{x:Null}" ClientName="[ClientName]" DeepLink="[DeepLink]" DisplayName="Begin Task Execution" ExecutionType="[WorkFlowToExecute]" sap:VirtualizedContainerService.HintSize="664,354" HookPassword="[HookPassword]" HookURL="[E5HookURL]" HookUserName="[HookUserName]" sap2010:WorkflowViewState.IdRef="Begin_Task_Execution_2" ProcessIdentifier="[ProcessIdentifier]" ProcessName="[ProcessName]" SummaryFieldNames="[SummaryFieldNames]" TaskName="[TaskName]" TaskRunIdentifier="[TaskRunID]" TaskRunJson_OutValue="[TaskJson]" __Prefix="[IO.Directory.GetCurrentDirectory]">
+      <euheo:Begin_Task_Execution FlowConfig="{x:Null}" ClientName="[ClientName]" DeepLink="[DeepLink]" DisplayName="Begin Task Execution" ExecutionType="[WorkFlowToExecute]" sap:VirtualizedContainerService.HintSize="714,354" HookPassword="[HookPassword]" HookURL="[E5HookURL]" HookUserName="[HookUserName]" sap2010:WorkflowViewState.IdRef="Begin_Task_Execution_2" ProcessIdentifier="[ProcessIdentifier]" ProcessName="[ProcessName]" SummaryFieldNames="[SummaryFieldNames]" TaskName="[TaskName]" TaskRunIdentifier="[TaskRunID]" TaskRunJson_OutValue="[TaskJson]" __Prefix="[IO.Directory.GetCurrentDirectory]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsPinned">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </euheo:Begin_Task_Execution>
-      <If Condition="[WorkFlowToExecute=&quot;Dispatcher&quot;]" sap:VirtualizedContainerService.HintSize="664,354" sap2010:WorkflowViewState.IdRef="If_1">
+      <If Condition="[WorkFlowToExecute=&quot;Dispatcher&quot;]" sap:VirtualizedContainerService.HintSize="714,299.333333333333" sap2010:WorkflowViewState.IdRef="If_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsPinned">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <If.Then>
-          <ucas:WriteStorageText TimeoutMS="{x:Null}" DisplayName="Write Storage Text" sap:VirtualizedContainerService.HintSize="284,190" sap2010:WorkflowViewState.IdRef="WriteStorageText_1" Path="Tasktext" StorageBucketName="ACME" Text="[TaskJson]">
+          <ui:WriteTextFile DisplayName="Write Text File" FileName="TaskIDText.txt" sap:VirtualizedContainerService.HintSize="334,135.333333333333" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[TaskJson]">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-          </ucas:WriteStorageText>
+          </ui:WriteTextFile>
         </If.Then>
         <If.Else>
           <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;WoekFlowExecute is  a Performer&quot;]">
@@ -508,7 +508,7 @@
           </ui:LogMessage>
         </If.Else>
       </If>
-      <eus:Set_Generic_Value DisplayName="Store TaskRunID" sap:VirtualizedContainerService.HintSize="664,135.333333333333" sap2010:WorkflowViewState.IdRef="Set_Generic_Value_1" Key="TaskRunID" Value="[TaskRunID]" __Prefix="[IO.Directory.GetCurrentDirectory]">
+      <eus:Set_Generic_Value DisplayName="Store TaskRunID" sap:VirtualizedContainerService.HintSize="714,135.333333333333" sap2010:WorkflowViewState.IdRef="Set_Generic_Value_1" Key="TaskRunID" Value="[TaskRunID]" __Prefix="[IO.Directory.GetCurrentDirectory]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsPinned">True</x:Boolean>
@@ -516,7 +516,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </eus:Set_Generic_Value>
-      <eus:Set_Generic_Value DisplayName="Store TaskRunID" sap:VirtualizedContainerService.HintSize="664,135.333333333333" sap2010:WorkflowViewState.IdRef="Set_Generic_Value_3" Key="DeepLink" Value="[DeepLink]" __Prefix="[IO.Directory.GetCurrentDirectory]">
+      <eus:Set_Generic_Value DisplayName="Store TaskRunID" sap:VirtualizedContainerService.HintSize="714,135.333333333333" sap2010:WorkflowViewState.IdRef="Set_Generic_Value_3" Key="DeepLink" Value="[DeepLink]" __Prefix="[IO.Directory.GetCurrentDirectory]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsPinned">True</x:Boolean>
@@ -524,7 +524,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </eus:Set_Generic_Value>
-      <eus:Set_Generic_Value DisplayName="Store TaskRunID" sap:VirtualizedContainerService.HintSize="664,135.333333333333" sap2010:WorkflowViewState.IdRef="Set_Generic_Value_4" Key="ClientName" Value="[ClientName]" __Prefix="[IO.Directory.GetCurrentDirectory]">
+      <eus:Set_Generic_Value DisplayName="Store TaskRunID" sap:VirtualizedContainerService.HintSize="714,135.333333333333" sap2010:WorkflowViewState.IdRef="Set_Generic_Value_4" Key="ClientName" Value="[ClientName]" __Prefix="[IO.Directory.GetCurrentDirectory]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsPinned">True</x:Boolean>
@@ -532,7 +532,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </eus:Set_Generic_Value>
-      <eus:Set_Generic_Value DisplayName="Store TaskRunID" sap:VirtualizedContainerService.HintSize="664,135.333333333333" sap2010:WorkflowViewState.IdRef="Set_Generic_Value_5" Key="ProcessIdentifier" Value="[ProcessIdentifier]" __Prefix="[IO.Directory.GetCurrentDirectory]">
+      <eus:Set_Generic_Value DisplayName="Store TaskRunID" sap:VirtualizedContainerService.HintSize="714,135.333333333333" sap2010:WorkflowViewState.IdRef="Set_Generic_Value_5" Key="ProcessIdentifier" Value="[ProcessIdentifier]" __Prefix="[IO.Directory.GetCurrentDirectory]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsPinned">True</x:Boolean>
