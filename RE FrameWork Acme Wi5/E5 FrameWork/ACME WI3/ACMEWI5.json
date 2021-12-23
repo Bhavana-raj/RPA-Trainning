@@ -1,0 +1,67 @@
+{
+    "Credential":{
+        "Gmail":"Gmail",
+        "ACME":"ACME"
+    },
+    "ACMELaunch":{
+        "ACMEURL":"https://acme-test.uipath.com/"
+    },
+    "DashBoard":{
+        "MainMenu":{
+            "Work Items":"Work Items",
+            "Vendors":"Vendors",
+            "Invoices":"Invoices"
+        },
+        "SubMenu":{
+            "Search for Vendor":"Search for Vendor",
+            "Add Invoice Details":"Add Invoice Details"
+        }
+    },
+    "TableAction":{
+        "Action":{
+            "GetData":"GetData",
+            "Click":"Click"
+        },
+        "TableColumn":{
+            "Type":"Type",
+            "Status":"Status",
+            "WIID":"WIID",
+            "Description":"Description",
+            "Date":"Date"
+        },
+        "TableRow":"",
+        "ButtonName":{
+            "Search":"Search",
+            "Delete":"Delete"
+        }
+    },
+    "Pagination":{
+        "PageAction":{
+            "Next":"Next",
+            "previous":"previous",
+            "Specific":"Specific"
+        },
+        "PageNumber":""
+    },
+    "ReadClientDetails":{
+        "LabelName":["Invoice ID","DateDate","Currency"]
+    },
+    "SHALaunch":{
+        "SHAURL":"http://www.sha1-online.com/"
+    },
+    "ClickUpdateWorkItem":{
+        "status":{
+            "Completed":"Completed",
+            "Rejected":"Rejected"
+        }
+    },
+    "SendMail":{
+        "SendTo":"mrsanthoss@gmail.com"
+    },
+    "BreadCrumbNavigations":{
+        "ButtonName":{
+            "Home":"Home",
+            "WorkItems":"Work Items"
+        }
+    }
+}

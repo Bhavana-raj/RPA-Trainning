@@ -1,0 +1,65 @@
+{
+    "Credential":{
+        "Gmail":"Gmail",
+        "ACME":"ACME"
+    },
+    "ACMELaunch":{
+        "ACMEURL":"https://acme-test.uipath.com/"
+    },
+    "DashBoard":{
+        "MainMenu":"Work Items",
+        "SubMenu":""
+    },
+    "TableAction":{
+        "Action":{
+            "GetData":"GetData",
+            "Click":"Click"
+        },
+        "TableColumn":{
+            "Type":"Type",
+            "Status":"Status",
+            "WIID":"WIID",
+            "Description":"Description",
+            "Date":"Date"
+        },
+        "TableRow":"",
+        "ButtonName":{
+            "Search":"Search",
+            "Delete":"Delete"
+        }
+    },
+    "Pagination":{
+        "PageAction":{
+            "Next":"Next",
+            "previous":"previous",
+            "Specific":"Specific"
+        },
+        "PageNumber":""
+    },
+    "ReadClientDetails":{
+        "LabelName":["Client ID","Client Name","Client Country"]
+    },
+    "SHALaunch":{
+        "SHAURL":"http://www.sha1-online.com/"
+    },
+    "ClickUpdateWorkItem":{
+        "Open":"Open",
+        "Completed":"Completed",
+        "Rejected":"Rejected"
+    },
+    "SendMail":{
+        "SendTo":"dinesh.saravanan@e5.ai"
+    },
+    "SPAStatus":{
+        "Success":"Success",
+        "Skipped":"Skipped",
+        "Failed":"Failed"
+    },
+    "Reason":{
+        "TableActionError":"Table action Click Search Failed",
+        "ReadClientDetailsError":"Read Client Details Failed",
+        "GetHashValueError":"Not Get Hash Code",
+        "ClickUpdateWorkItemError":"Click Update Failed",
+        "Skipped":"Type not Matched"
+    }
+}
