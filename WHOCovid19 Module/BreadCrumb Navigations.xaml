@@ -14,7 +14,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1153.33333333333,2378.66666666667</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>847.333333333333,2416.66666666667</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>BreadCrum_Navigations_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -78,7 +78,7 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="To Navigation Of Home Page and Work Items Page Using Click  BreadCrumb Button" DisplayName="BreadCrum_Navigations" sap:VirtualizedContainerService.HintSize="676,2314" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="To Navigation Of Home Page and Work Items Page Using Click  BreadCrumb Button" DisplayName="BreadCrum_Navigations" sap:VirtualizedContainerService.HintSize="676,2352" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -86,7 +86,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="634,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;BreadCrumb Navigations Start&quot;]" />
-    <TryCatch sap2010:Annotation.AnnotationText="Try Chatch main To Handing Error" DisplayName="Try Catch Main" sap:VirtualizedContainerService.HintSize="634,1922" sap2010:WorkflowViewState.IdRef="TryCatch_4">
+    <TryCatch sap2010:Annotation.AnnotationText="Try Chatch main To Handing Error" DisplayName="Try Catch Main" sap:VirtualizedContainerService.HintSize="634,1960" sap2010:WorkflowViewState.IdRef="TryCatch_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -95,7 +95,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="595.333333333333,1630" sap2010:WorkflowViewState.IdRef="Sequence_11">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="595.333333333333,1668" sap2010:WorkflowViewState.IdRef="Sequence_11">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -134,7 +134,7 @@
               </If.Else>
             </If>
           </Sequence>
-          <TryCatch DisplayName="Try Catch Attach Browser" sap:VirtualizedContainerService.HintSize="553.333333333333,1188" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+          <TryCatch DisplayName="Try Catch Attach Browser" sap:VirtualizedContainerService.HintSize="553.333333333333,1226" sap2010:WorkflowViewState.IdRef="TryCatch_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -142,7 +142,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <TryCatch.Try>
-              <ui:BrowserScope BrowserType="{x:Null}" SearchScope="{x:Null}" Selector="{x:Null}" TimeoutMS="{x:Null}" sap2010:Annotation.AnnotationText="WHO browser Tab" Browser="[BrowserTab]" DisplayName="Attach Browser WHO Tab" sap:VirtualizedContainerService.HintSize="514.666666666667,950" sap2010:WorkflowViewState.IdRef="BrowserScope_1" UiBrowser="[BrowserTab]">
+              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" sap2010:Annotation.AnnotationText="WHO browser Tab" BrowserType="Chrome" DisplayName="Attach Browser WHO Tab" sap:VirtualizedContainerService.HintSize="514.666666666667,988" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="4cde51c89499143fc6372a8c07341bd7" Selector="&lt;html app='chrome.exe' title='WHO COVID-19 Explorer' /&gt;" UiBrowser="[BrowserTab]">
                 <ui:BrowserScope.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
@@ -174,7 +174,7 @@
                           <TryCatch.Try>
                             <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element Home Button" sap:VirtualizedContainerService.HintSize="334,68" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
                               <ui:WaitUiElementAppear.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1699d9ca-8ead-429e-a291-8c0b2f320a4c" Selector="&lt;webctrl tag='A' aaname='About' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1699d9ca-8ead-429e-a291-8c0b2f320a4c" Selector="&lt;webctrl tag='A' aaname='Summary' /&gt;">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -212,7 +212,7 @@
                         </TryCatch>
                         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="438.666666666667,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Trace" Message="[&quot;Landing Page Valid&quot;]" />
                       </Sequence>
-                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click I Accept" sap:VirtualizedContainerService.HintSize="438.666666666667,68" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="True">
+                      <ui:Click AlterIfDisabled="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DelayBefore="3000" DisplayName="Click I Accept" sap:VirtualizedContainerService.HintSize="438.666666666667,68" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                         <ui:Click.CursorPosition>
                           <ui:CursorPosition Position="Center">
                             <ui:CursorPosition.OffsetX>
@@ -224,7 +224,7 @@
                           </ui:CursorPosition>
                         </ui:Click.CursorPosition>
                         <ui:Click.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bf03dde9-0b71-474c-a3a3-8815f9889226" Selector="&lt;html app='chrome.exe' title='WHO COVID-19 Explorer' /&gt;&lt;webctrl tag='BUTTON' aaname='I accept' /&gt;">
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bf03dde9-0b71-474c-a3a3-8815f9889226" Selector="&lt;webctrl id='closeModal' tag='BUTTON' /&gt;">
                             <ui:Target.TimeoutMS>
                               <InArgument x:TypeArguments="x:Int32" />
                             </ui:Target.TimeoutMS>
