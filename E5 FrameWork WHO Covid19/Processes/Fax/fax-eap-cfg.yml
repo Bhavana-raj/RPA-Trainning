@@ -1,0 +1,55 @@
+# Fax Assesment, Evaluation and Physician Order Forms
+
+### Filter params which would be used
+### in the custom reports page
+StaticReportFilters:
+  - name: "From"
+    type: "text"
+    value:
+      - "1/1/2013"
+
+  - name: "Forms"
+    type: "dropdown"
+    value:
+      - "Occupational Therapy Reassessment with Frequency"
+      - "Physical Therapy Reassessment with Frequency"
+      - "Speech Therapy Reassessment with Frequency"
+      - "MSW Evaluation and Care Plan"
+      - "Occupational Therapy Evaluation + Standalone Order"
+      - "Physical Therapy Evaluation + Standalone Order"
+      - "Speech Therapy Evaluation + Standalone Order"
+      - "Physician Order"
+
+  - name: "Form Statuses"
+    type: "dropdown"
+    value:
+      - "Completed"
+
+  - name: "Printed"
+    type: "radio"
+    value:
+      - "Not Printed"
+
+  - name: "Pushed"
+    type: "radio"
+    value:
+      - "Not Pushed"
+
+  - name: "Faxed"
+    type: "radio"
+    value:
+      - "Not Faxed"
+
+  - name: "Order Returned"
+    type: "radio"
+    value:
+      - "Not Order Returned"
+
+### In certain flows after a activities are
+### faxed they are marked as Order Returned.
+###
+### This is the flag to enable or disable that feature
+NeedsOrderReturnedMark: "False"
+
+### Comments while faxing
+NoteBeforeFaxing: ""

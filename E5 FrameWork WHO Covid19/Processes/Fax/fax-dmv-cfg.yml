@@ -1,0 +1,72 @@
+# Fax Discharge Summaries and Missed Visit Notes
+
+### Filter params which would be used
+### in the custom reports page
+StaticReportFilters:
+  - name: "From"
+    type: "text"
+    value:
+      - "1/1/2013"
+
+  - name: "Forms"
+    type: "dropdown"
+    value:
+      - "**Discharge" # '**' means select all would be used after entering the term
+      - "**Missed Visit"
+
+  - name: "Form Statuses"
+    type: "dropdown"
+    value:
+      - "Completed"
+
+  - name: "Printed"
+    type: "radio"
+    value:
+      - "Both"
+
+  - name: "Pushed"
+    type: "radio"
+    value:
+      - "Both"
+
+  - name: "Faxed"
+    type: "radio"
+    value:
+      - "Both"
+
+  - name: "Fax Failed"
+    type: "radio"
+    value:
+      - "Both"
+
+  - name: "Signed"
+    type: "radio"
+    value:
+      - "Both"
+
+  - name: "Order Sent"
+    type: "radio"
+    value:
+      - "Both"
+
+  - name: "Order Returned"
+    type: "radio"
+    value:
+      - "Not Order Returned"
+
+  - name: "Do Not Track"
+    type: "radio"
+    value:
+      - "Both"
+
+
+### In certain flows after a activities are
+### faxed they are marked as Order Returned.
+###
+### This is the flag to enable or disable that feature
+NeedsOrderReturnedMark: "True"
+
+### Comments while faxing
+NoteBeforeFaxing: "THESE DO NOT REQUIRE A SIGNATURE AND DO NOT NEED TO BE FAXED BACK TO OUR AGENCY. FOR YOUR RECORDS."
+
+

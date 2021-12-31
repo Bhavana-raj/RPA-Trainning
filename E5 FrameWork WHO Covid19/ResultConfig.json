@@ -1,0 +1,57 @@
+{
+  "Australia": {
+    "Country": "Australia",
+    "WHO region": "WPRO",
+    "Population": "25,499,884",
+    "New deaths (wk):": "48",
+    "Reason": "",
+    "Status": "Success",
+    "New Cases": "64,107",
+    "New Death": "48",
+    "Vaccination POP": "161.6"
+  },
+  "Brazil": {
+    "Country": "Brazil",
+    "WHO region": "PAHO",
+    "Population": "212,559,417",
+    "New deaths (wk):": "661",
+    "Reason": "",
+    "Status": "Success",
+    "New Cases": "30,420",
+    "New Death": "661",
+    "Vaccination POP": "148.3"
+  },
+  "China": {
+    "Country": "China",
+    "WHO region": "WPRO",
+    "Population": "1,471,286,879",
+    "New deaths (wk):": "0",
+    "Reason": "",
+    "Status": "Success",
+    "New Cases": "1,327",
+    "New Death": "0",
+    "Vaccination POP": "181.7"
+  },
+  "India": {
+    "Country": "India",
+    "WHO region": "SEARO",
+    "Population": "1,380,004,385",
+    "New deaths (wk):": "2,267",
+    "Reason": "",
+    "Status": "Success",
+    "New Cases": "50,405",
+    "New Death": "2,267",
+    "Vaccination POP": "100.6"
+  },
+  "Japan": {
+    "Country": "Japan",
+    "WHO region": "WPRO",
+    "Population": "126,476,461",
+    "New deaths (wk):": "8",
+    "Reason": "",
+    "Status": "Success",
+    "New Cases": "2,034",
+    "New Death": "8",
+    "Vaccination POP": "156.9"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "WHOURL":"https://covid19.who.int/",
+    "DashBoardMenu":"Explore",
+    "DashBoardSubMenu":"Explore the Data",
+    "BreadCrumbButtonName":"Country/Area/Territory",
+    "SubBreadCrumbButtonName":"Summary",
+    "DownloadPlot":"True",
+    "Censorincompleteweeks":"True",
+    "Showdataweek":"True",
+    "Showpopulation":"True",
+    "mesasurekey":["Country","WHO region","Population","New cases (wk):","New deaths (wk):","Vaccinations per 100 pop"],
+    "CountryName":["Australia","Brazil","China","India","Japan"],
+    "SendMailId":"mrsanthoss@gmail.com"
+    
+}
